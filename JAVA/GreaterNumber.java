@@ -7,11 +7,9 @@ public class GreaterNumber {
         a = scan.nextInt();
         System.out.println("Enter 2nd number : ");
         b = scan.nextInt();
-        if(a>b)
-        {
+        if(a>b){
             System.out.println("Greater number is: "+a);
-        }else
-        {
+        }else{
             System.out.println("Greater number is: "+b);
         }
         scan.close();
