@@ -15,5 +15,6 @@ public class ArithmeticOperator{
         System.out.println("The product is : "+mul);
         div = a / b;
         System.out.println("The division is : "+div);
+        scan.close();
     }
 }
